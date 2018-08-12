@@ -15,6 +15,6 @@
     },
     "require": {
         "php": ">=7.1",
-        "jmcode/http": "@dev"
+        "jmcode/http": ">= 1.0"
     }
 }
