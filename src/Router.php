@@ -1,6 +1,6 @@
 <?php
 
-namespace jmcode\cms;
+namespace JMCode\Cms;
 
 class Router {
     

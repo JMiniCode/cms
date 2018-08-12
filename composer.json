@@ -10,10 +10,11 @@
         }
     ],
     "autoload": {
-        "psr-4": {"CMS\\": "src"},
+        "psr-4": {"JMCode\\Cms\\": "src"},
         "files": ["core.php"]
     },
     "require": {
-        "php": ">=7.1"
+        "php": ">=7.1",
+        "jmcode/http": "@dev"
     }
 }
