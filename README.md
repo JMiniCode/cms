@@ -2,7 +2,8 @@
 Jungle Mini Code CMS
 ## Установка ##
 - - - -
-code(<?php
+```php
+<?php
 
 use JMCode\Cms\App;
 
@@ -31,4 +32,5 @@ $app->use(function($err, $req, $res, $next) {
     
 });
 
-$app->run();)
+$app->run();
+```
