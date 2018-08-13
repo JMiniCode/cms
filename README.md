@@ -11,6 +11,13 @@ include (dirname(__DIR__) . '\\vendor\\autoload.php');
 
 $app = new App();
 
+/**
+* Доступные методы
+* all - Общий метод (get, post, put, delete}
+* use - Расширение стеков
+* $app->{get, post, put, delete, all, use}
+*/
+
 // Основные страницы
 $app->get('/', APP_DIR_PATH . '\\index.php');
 $app->get('/faq', APP_DIR_PATH . '\\faq.php');
