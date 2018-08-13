@@ -49,6 +49,10 @@ class App {
             throw new \Exception('App::call - Аргументы не передана');
         }
 
+        if($method === 'set' and count($args) === 2) {
+            return $this->_setting[$args[0]] = $args[1];
+        }
+
         if($method === 'get' and count($args) === 1) {
             return $this->_setting[$args[0]];
         }
