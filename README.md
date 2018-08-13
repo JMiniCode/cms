@@ -1,7 +1,7 @@
 # cms
 Jungle Mini Code CMS
 ## Установка ##
-- - - -
+
 ```php
 <?php
 
