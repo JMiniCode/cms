@@ -11,8 +11,6 @@ include (dirname(__DIR__) . '\\vendor\\autoload.php');
 
 $app = new App();
 
-$app->set('view', 'twig');
-
 // Основные страницы
 $app->get('/', APP_DIR_PATH . '\\index.php');
 $app->get('/faq', APP_DIR_PATH . '\\faq.php');
@@ -29,7 +27,7 @@ $app->use(function($req, $res, $next) {
 });
 
 $app->use(function($err, $req, $res, $next) {
-    
+    // Если ошибка было передано то срабатывает данная функция с 4 параметрами
 });
 
 $app->run();
