@@ -1,20 +1,27 @@
 {
-    "name": "jmcode/cms",
-    "description": "Jungle Mini Code CMS",
-    "keywords": ["jmcode", "cms"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "JMCode",
-            "email": "jmcode@mail.ru"
-        }
-    ],
-    "autoload": {
-        "psr-4": {"JMCode\\Cms\\": "src/"},
-        "files": ["core.php"]
-    },
-    "require": {
-        "php": ">=7.1",
-        "jmcode/http": ">=1.0"
+  "name": "jmcode/cms",
+  "description": "Jungle Mini Code CMS",
+  "keywords": [
+    "jmcode",
+    "cms"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "JMCode",
+      "email": "jmcode@mail.ru"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "JMCode\\Cms\\": "src/"
+    },
+    "files": [
+      "core.php"
+    ]
+  },
+  "require": {
+    "php": ">=7.1",
+    "jmcode/http": ">=1.0"
+  }
 }
